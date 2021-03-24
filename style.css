@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Aquire";
+    src: url("fonts/Aquire.otf") format('embedded-opentype');
+}
+*{
+    background-image: url("img/wallpaper5.jpg");
+    font-family: Aquire;
+    color: rgb(241, 222, 187);
+}
+.header-words { 
+    color: whitesmoke;
+    text-shadow: 20%;
+}
