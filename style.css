@@ -1,13 +1,46 @@
-@font-face {
-    font-family: "Aquire";
-    src: url("fonts/Aquire.otf") format('embedded-opentype');
+@font-face{
+    font-family: "National";
+    src: url(/fonts/NationalPark-Regular.otf);
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #000 url(img/wallpaper10.png) repeat center bottom fixed;
+    background-size: cover;
+    
+}
+
 *{
-    background-image: url("img/wallpaper5.jpg");
-    font-family: Aquire;
-    color: rgb(241, 222, 187);
+    font-family: National;
+    color: rgb(0, 0, 0);
 }
 .header-words { 
-    color: whitesmoke;
-    text-shadow: 20%;
+    position: relative;
+    background:url(/img/banner.png) no-repeat;
+    background-size: 90%;
+    
+    background-position-x: center;
+    background-position: top;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h4{
+    position: relative;
+    font-size: 1.5em;
+    padding-left: 3%;
+    white-space: pre-line; 
+}
+.TextBox{
+    border-radius: 25px;
+    margin: 60px;
+    background-color: #ffffff;
+    border: 5px solid #e8f6fa;
+    opacity: 0.6;
+}
+
+.link:hover{
+    color: rgb(37, 37, 37);
 }
