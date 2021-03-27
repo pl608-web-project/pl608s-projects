@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    background: #000 url(img/wallpaper10.png) repeat center bottom fixed;
+    background: #000 url(imgs/wallpaper10.png) repeat center bottom fixed;
     background-size: cover;
     
 }
@@ -18,7 +18,7 @@ body {
 }
 .header-words { 
     position: relative;
-    background:url(/img/banner.png) no-repeat;
+    background:url(/imgs/banner.png) no-repeat;
     background-size: 90%;
     
     background-position-x: center;
